@@ -1,0 +1,253 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+/* body {
+    overflow: hidden;
+} */
+
+.background {
+    background-image: url("background.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.image-container {
+    position: relative;
+    text-align: center;
+  }
+
+  #myImage {
+    opacity: 1;
+    transition: opacity 3s ease-in-out;
+  }
+
+  .imagefem {
+    animation: fade 2s ease-in-out forwards;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.fade-in {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+.fade-in2 {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+.fade-in3 {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+.fade-in4 {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+.fade-in5{
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+.fade-in6{
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-out {
+    animation-name: fadeOut;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+#headline1 {
+    visibility:hidden;
+    animation: fadeIn 3s forwards 3s;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform:scale(0,0);
+        visibility:visible;
+        opacity:0;
+    }
+    100% {
+        transform:scale(1,1);
+        visibility:visible;
+        opacity:1;
+    }
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+                opacity: 0;
+            }
+    } 
+
+    #headline2 {
+        visibility:hidden;
+            animation: fadeIn3 15s forwards 3s;
+            position: absolute;
+            bottom: 100px;
+            left: 100px;
+            z-index: 2;
+    }
+
+    @keyframes fadeIn3 {
+            0% {
+                transform:scale(0,0);
+                visibility:visible;
+                opacity:0;
+            }
+            100% {
+                transform:scale(1,1);
+                visibility:visible;
+                opacity:1;
+            }
+        }
+
+
+        #subheadline {
+            visibility:hidden;
+            animation: fadeIn4 15s forwards 3s;
+            position: absolute;
+            bottom: 10px;
+            left: 100px;
+            z-index: 2;
+        }
+    
+        @keyframes fadeIn4 {
+                0% {
+                    transform:scale(0,0);
+                    visibility:visible;
+                    opacity:0;
+                }
+                100% {
+                    transform:scale(1,1);
+                    visibility:visible;
+                    opacity:1;
+                }
+            }
+
+
+            #learnmore {
+                visibility:hidden;
+                animation: fadeIn5 5s forwards 5s;
+                position: absolute;
+                bottom: 300px;
+                left: 600px;
+                z-index: 2;
+            }
+
+            @keyframes fadeIn5 {
+                0% {
+                    transform:scale(0,0);
+                    visibility:visible;
+                    opacity:0;
+                }
+                100% {
+                    transform:scale(1,1);
+                    visibility:visible;
+                    opacity:1;
+                }
+            }
+
+
+            #logo {
+                visibility:hidden;
+                animation: fadeIn5 5s forwards 5s;
+                position: absolute;
+            bottom:50px;
+            left:700px;
+                z-index: 2;
+            }
+
+            @keyframes fadeIn5 {
+                0% {
+                    transform:scale(0,0);
+                    visibility:visible;
+                    opacity:0;
+                }
+                100% {
+                    transform:scale(1,1);
+                    visibility:visible;
+                    opacity:1;
+                }
+            }
+
+            #replay {
+                visibility:hidden;
+                animation: fadeIn5 5s forwards 5s;
+                position: absolute;
+                bottom:100px;
+                right:900px;
+                z-index: 2;
+            
+            
+        }
+        @keyframes fadeIn5 {
+            0% {
+                transform:scale(0,0);
+                visibility:visible;
+                opacity:0;
+            }
+            100% {
+                transform:scale(1,1);
+                visibility:visible;
+                opacity:1;
+            }
+        }
