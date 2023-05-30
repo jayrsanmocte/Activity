@@ -54,7 +54,7 @@ female.addEventListener('animationend', function(){
 female.classList.remove('fade-in')
 female.classList.add('fade-out')
 headline1.classList.remove('d-none')
-headline1.classList.add('fade-in')
+headline1.classList.add('move')
 headline2.classList.remove('d-none')
 headline2.classList.add('fade-in3')
 subheadline.classList.remove('d-none')
@@ -65,8 +65,8 @@ logo.classList.remove('d-none')
 logo.classList.add('fade-in5')
 replay.classList.remove('d-none')
 replay.classList.add('fade-in6')
+});
 
-replay.addEventListener('click',() => {
-    window.location.reload();
-});
-});
+
+
+
