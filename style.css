@@ -34,7 +34,7 @@ body {
   }
 
   .imagefem {
-    position: relative;
+    position: absolute;
     animation: fadeIn2 1s ease-in forwards;
 }
 @keyframes fade {
@@ -148,44 +148,35 @@ body {
         left: 50%;
         transform: translateX(-50%);
         }
-        0% {
-            visibility:visible;
-            opacity:0;
-        }
-        100% {
-            visibility:visible;
-            opacity:1;
-        }
-            0% {
-                opacity: 0;
-            }
-            50% {
-                opacity: 1;
-            }
+
             100% {
                     opacity: 0;
                 }
+                50% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
                 
-
-               
     }
 
     .move {
-        animation-duration: 6s;
+        animation-duration: 7s;
         animation-fill-mode: both;
         position: absolute;
         animation-name: move;
-        
-    bottom: 100px;
-    left: 100px;
-    z-index: 2;
-    }
+        animation-delay: 1s;
+        bottom: 100px;
+        left: 100px;
+        z-index: 2;
+        }
 
 
 
     #headline2 {
         visibility:hidden;
-            animation: fadeIn3 3s forwards 9s;
+            animation: fadeIn3 2s both 9s;
             position: absolute; 
             bottom: 100px;
             left: 100px;
@@ -256,7 +247,7 @@ body {
                 visibility:hidden;
                 animation: fadeIn5 3s forwards 9s;
                 position: absolute;
-            bottom:50px;
+            top: -40px;
             left:700px;
                 z-index: 2;
             }
