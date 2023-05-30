@@ -51,7 +51,7 @@ let replay = document.getElementById('replay')
 
 
 female.addEventListener('animationend', function(){
-female.classList.remove('fade-in')
+female.classList.remove('fade-in2')
 female.classList.add('fade-out')
 headline1.classList.remove('d-none')
 headline1.classList.add('move')

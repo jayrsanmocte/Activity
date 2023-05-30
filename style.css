@@ -35,7 +35,7 @@ body {
 
   .imagefem {
     position: relative;
-    animation: fadeIn 1s ease-in forwards;
+    animation: fadeIn2 1s ease-in forwards;
 }
 @keyframes fade {
     0% {
@@ -165,8 +165,9 @@ body {
             100% {
                     opacity: 0;
                 }
+                
 
-
+               
     }
 
     .move {
@@ -174,6 +175,7 @@ body {
         animation-fill-mode: both;
         position: absolute;
         animation-name: move;
+        
     bottom: 100px;
     left: 100px;
     z-index: 2;
