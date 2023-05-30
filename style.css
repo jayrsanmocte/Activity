@@ -238,27 +238,31 @@ body {
                 }
             }
 
-
-            #logo {
-                visibility:hidden;
-                animation: fadeIn5 3s forwards 9s;
+            .move1 {
+                animation-duration: 10s;
+                animation-fill-mode: both;
                 position: absolute;
-            top: -40px;
-            left:700px;
+                animation-name: move1;
+                animation-delay: 3ms;
+                top: 100px;
+                left: 400px;
                 z-index: 2;
-            }
+                }
 
-            @keyframes fadeIn5 {
-                0% {
-                    transform:scale(0,0);
-                    visibility:visible;
-                    opacity:0;
+            
+           
+
+            @keyframes move1 {
+                from {
+                left: -100%;
                 }
-                100% {
-                    transform:scale(1,1);
-                    visibility:visible;
-                    opacity:1;
+                to {
+                left: 50%;
+                transform: translateX(-50%);
                 }
+            
+
+          
             }
 
             #replay {

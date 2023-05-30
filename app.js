@@ -62,7 +62,7 @@ subheadline.classList.add('fade-in4')
 learnmore.classList.remove('d-none')
 learnmore.classList.add('fade-in5')
 logo.classList.remove('d-none')
-logo.classList.add('fade-in5')
+logo.classList.add('move1')
 replay.classList.remove('d-none')
 replay.classList.add('fade-in6')
 });
